@@ -1,0 +1,20 @@
+[14-Nov-2024 02:46:37 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:53 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+

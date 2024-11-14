@@ -1,0 +1,92 @@
+[13-Nov-2024 04:20:17 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 053ac503d89d0ed8e9503a7372c7b760c75215a1e83c8743000347508df38150
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 3
+    [username] => qtqw@gmail.com
+    [is_admin] => 
+)
+
+[13-Nov-2024 04:20:20 Europe/Istanbul] Error [2]: Cannot modify header information - headers already sent by (output started at /home/sinneonatolog/public_html/5/panel/customer/sites.php:19) in /home/sinneonatolog/public_html/5/panel/includes/customer-nav.php on line 4
+[13-Nov-2024 04:20:21 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 053ac503d89d0ed8e9503a7372c7b760c75215a1e83c8743000347508df38150
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 3
+    [username] => qtqw@gmail.com
+    [is_admin] => 
+)
+
+[13-Nov-2024 04:20:22 Europe/Istanbul] Error [2]: Cannot modify header information - headers already sent by (output started at /home/sinneonatolog/public_html/5/panel/customer/backlinks.php:35) in /home/sinneonatolog/public_html/5/panel/includes/customer-nav.php on line 4
+[13-Nov-2024 04:20:23 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 053ac503d89d0ed8e9503a7372c7b760c75215a1e83c8743000347508df38150
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 3
+    [username] => qtqw@gmail.com
+    [is_admin] => 
+)
+
+[13-Nov-2024 04:20:23 Europe/Istanbul] Exception: Table 'sinneonatolog_wp1.payments' doesn't exist
+#0 /home/sinneonatolog/public_html/5/panel/customer/credits.php(27): mysqli->prepare('\n    SELECT * F...')
+#1 {main}
+[13-Nov-2024 04:20:25 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 053ac503d89d0ed8e9503a7372c7b760c75215a1e83c8743000347508df38150
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 3
+    [username] => qtqw@gmail.com
+    [is_admin] => 
+)
+
+[13-Nov-2024 04:20:27 Europe/Istanbul] Error [2]: Cannot modify header information - headers already sent by (output started at /home/sinneonatolog/public_html/5/panel/customer/sites.php:19) in /home/sinneonatolog/public_html/5/panel/includes/customer-nav.php on line 4
+[13-Nov-2024 04:20:27 Europe/Istanbul] Error [2]: Cannot modify header information - headers already sent by (output started at /home/sinneonatolog/public_html/5/panel/customer/backlinks.php:35) in /home/sinneonatolog/public_html/5/panel/includes/customer-nav.php on line 4
+[13-Nov-2024 04:20:27 Europe/Istanbul] Exception: Table 'sinneonatolog_wp1.payments' doesn't exist
+#0 /home/sinneonatolog/public_html/5/panel/customer/credits.php(27): mysqli->prepare('\n    SELECT * F...')
+#1 {main}
+[13-Nov-2024 04:24:42 Europe/Istanbul] Error [2]: Cannot modify header information - headers already sent by (output started at /home/sinneonatolog/public_html/5/panel/customer/backlinks.php:35) in /home/sinneonatolog/public_html/5/panel/includes/customer-nav.php on line 4
+[13-Nov-2024 04:25:40 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 053ac503d89d0ed8e9503a7372c7b760c75215a1e83c8743000347508df38150
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 3
+    [username] => qtqw@gmail.com
+    [is_admin] => 
+)
+
+[13-Nov-2024 04:25:41 Europe/Istanbul] Error [2]: Cannot modify header information - headers already sent by (output started at /home/sinneonatolog/public_html/5/panel/customer/profile.php:53) in /home/sinneonatolog/public_html/5/panel/includes/customer-nav.php on line 4
+[13-Nov-2024 05:10:00 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 57e8c6cb09dece7ec953ea1e04f334493c24189d862405b20a92f69bb5981575
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 4
+    [username] => qwe@wwwqeqweqweqe.com
+    [is_admin] => 
+)
+
+[13-Nov-2024 05:10:04 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 57e8c6cb09dece7ec953ea1e04f334493c24189d862405b20a92f69bb5981575
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 4
+    [username] => qwe@wwwqeqweqweqe.com
+    [is_admin] => 
+)
+
+[13-Nov-2024 05:10:05 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 57e8c6cb09dece7ec953ea1e04f334493c24189d862405b20a92f69bb5981575
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 4
+    [username] => qwe@wwwqeqweqweqe.com
+    [is_admin] => 
+)
+

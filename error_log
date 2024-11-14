@@ -1,0 +1,3657 @@
+[13-Nov-2024 04:12:16 Europe/Istanbul] PHP Warning:  The magic method Database::__wakeup() must have public visibility in /home/sinneonatolog/public_html/5/includes/database.php on line 188
+[13-Nov-2024 04:12:16 Europe/Istanbul] Database Error: Access denied for user 'root'@'localhost' (using password: YES)
+[13-Nov-2024 04:12:16 Europe/Istanbul] Database Instance Error: Database connection failed. Please check your configuration.
+[13-Nov-2024 04:12:16 Europe/Istanbul] PHP Fatal error:  Uncaught Exception: Database connection failed. Please check your configuration. in /home/sinneonatolog/public_html/5/includes/database.php:24
+Stack trace:
+#0 /home/sinneonatolog/public_html/5/includes/database.php(31): Database->__construct()
+#1 /home/sinneonatolog/public_html/5/includes/init.php(14): Database::getInstance()
+#2 /home/sinneonatolog/public_html/5/login.php(2): require_once('/home/sinneonat...')
+#3 {main}
+  thrown in /home/sinneonatolog/public_html/5/includes/database.php on line 24
+[13-Nov-2024 04:12:53 Europe/Istanbul] PHP Warning:  The magic method Database::__wakeup() must have public visibility in /home/sinneonatolog/public_html/5/includes/database.php on line 188
+[13-Nov-2024 04:12:58 Europe/Istanbul] PHP Warning:  The magic method Database::__wakeup() must have public visibility in /home/sinneonatolog/public_html/5/includes/database.php on line 188
+[13-Nov-2024 04:13:07 Europe/Istanbul] PHP Warning:  The magic method Database::__wakeup() must have public visibility in /home/sinneonatolog/public_html/5/includes/database.php on line 188
+[13-Nov-2024 04:13:13 Europe/Istanbul] PHP Warning:  The magic method Database::__wakeup() must have public visibility in /home/sinneonatolog/public_html/5/includes/database.php on line 188
+[13-Nov-2024 04:13:21 Europe/Istanbul] PHP Warning:  The magic method Database::__wakeup() must have public visibility in /home/sinneonatolog/public_html/5/includes/database.php on line 188
+[13-Nov-2024 04:13:22 Europe/Istanbul] PHP Warning:  The magic method Database::__wakeup() must have public visibility in /home/sinneonatolog/public_html/5/includes/database.php on line 188
+[13-Nov-2024 04:13:24 Europe/Istanbul] PHP Warning:  The magic method Database::__wakeup() must have public visibility in /home/sinneonatolog/public_html/5/includes/database.php on line 188
+[13-Nov-2024 04:13:24 Europe/Istanbul] Login error: Unknown column 'is_admin' in 'field list'
+[13-Nov-2024 04:13:27 Europe/Istanbul] PHP Warning:  The magic method Database::__wakeup() must have public visibility in /home/sinneonatolog/public_html/5/includes/database.php on line 188
+[13-Nov-2024 04:13:27 Europe/Istanbul] Login error: Unknown column 'is_admin' in 'field list'
+[13-Nov-2024 04:13:29 Europe/Istanbul] PHP Warning:  The magic method Database::__wakeup() must have public visibility in /home/sinneonatolog/public_html/5/includes/database.php on line 188
+[13-Nov-2024 04:13:49 Europe/Istanbul] PHP Warning:  The magic method Database::__wakeup() must have public visibility in /home/sinneonatolog/public_html/5/includes/database.php on line 188
+[13-Nov-2024 04:13:54 Europe/Istanbul] PHP Warning:  The magic method Database::__wakeup() must have public visibility in /home/sinneonatolog/public_html/5/includes/database.php on line 188
+[13-Nov-2024 04:13:55 Europe/Istanbul] PHP Warning:  The magic method Database::__wakeup() must have public visibility in /home/sinneonatolog/public_html/5/includes/database.php on line 188
+[13-Nov-2024 04:13:55 Europe/Istanbul] Login error: Unknown column 'is_admin' in 'field list'
+[13-Nov-2024 04:18:07 Europe/Istanbul] PHP Warning:  The magic method Database::__wakeup() must have public visibility in /home/sinneonatolog/public_html/5/includes/database.php on line 188
+[13-Nov-2024 04:18:07 Europe/Istanbul] User not found: qwe@wqeqweqweqe.com
+[13-Nov-2024 04:18:10 Europe/Istanbul] PHP Warning:  The magic method Database::__wakeup() must have public visibility in /home/sinneonatolog/public_html/5/includes/database.php on line 188
+[13-Nov-2024 04:18:10 Europe/Istanbul] User not found: qwe@wqeqweqweqe.com
+[13-Nov-2024 04:19:52 Europe/Istanbul] Invalid password for user: admin
+[13-Nov-2024 04:20:00 Europe/Istanbul] Invalid password for user: Admin
+[13-Nov-2024 04:20:17 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 053ac503d89d0ed8e9503a7372c7b760c75215a1e83c8743000347508df38150
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 3
+    [username] => qtqw@gmail.com
+    [is_admin] => 
+)
+
+[13-Nov-2024 04:20:17 Europe/Istanbul] Redirecting to: panel/customer/dashboard.php
+[13-Nov-2024 05:10:00 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 57e8c6cb09dece7ec953ea1e04f334493c24189d862405b20a92f69bb5981575
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 4
+    [username] => qwe@wwwqeqweqweqe.com
+    [is_admin] => 
+)
+
+[13-Nov-2024 05:10:00 Europe/Istanbul] Redirecting to: panel/customer/dashboard.php
+[13-Nov-2024 05:10:17 Europe/Istanbul] Invalid password for user: admin
+[13-Nov-2024 05:10:21 Europe/Istanbul] Invalid password for user: Admin
+[13-Nov-2024 05:11:01 Europe/Istanbul] User not found: admin@example.com
+[13-Nov-2024 05:11:08 Europe/Istanbul] User not found: admin@example.com
+[13-Nov-2024 05:12:09 Europe/Istanbul] User not found: admin@example.com
+[13-Nov-2024 05:18:53 Europe/Istanbul] Invalid password for user: admin
+[13-Nov-2024 05:19:25 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 0257d1bd3e54e6b5707fdc64d9fabd2d1d16d102ea0583911538291c6fe546a5
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 05:19:25 Europe/Istanbul] Redirecting to: panel/admin/dashboard.php
+[13-Nov-2024 05:19:31 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 0257d1bd3e54e6b5707fdc64d9fabd2d1d16d102ea0583911538291c6fe546a5
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 05:19:31 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 0257d1bd3e54e6b5707fdc64d9fabd2d1d16d102ea0583911538291c6fe546a5
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 05:19:31 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 0257d1bd3e54e6b5707fdc64d9fabd2d1d16d102ea0583911538291c6fe546a5
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 05:19:31 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 0257d1bd3e54e6b5707fdc64d9fabd2d1d16d102ea0583911538291c6fe546a5
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 05:19:31 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 0257d1bd3e54e6b5707fdc64d9fabd2d1d16d102ea0583911538291c6fe546a5
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 05:19:32 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 0257d1bd3e54e6b5707fdc64d9fabd2d1d16d102ea0583911538291c6fe546a5
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 05:19:32 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 0257d1bd3e54e6b5707fdc64d9fabd2d1d16d102ea0583911538291c6fe546a5
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 05:19:32 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 0257d1bd3e54e6b5707fdc64d9fabd2d1d16d102ea0583911538291c6fe546a5
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 05:19:32 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 0257d1bd3e54e6b5707fdc64d9fabd2d1d16d102ea0583911538291c6fe546a5
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 05:19:32 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 0257d1bd3e54e6b5707fdc64d9fabd2d1d16d102ea0583911538291c6fe546a5
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 05:19:32 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 0257d1bd3e54e6b5707fdc64d9fabd2d1d16d102ea0583911538291c6fe546a5
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 05:19:32 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 0257d1bd3e54e6b5707fdc64d9fabd2d1d16d102ea0583911538291c6fe546a5
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 05:19:32 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 0257d1bd3e54e6b5707fdc64d9fabd2d1d16d102ea0583911538291c6fe546a5
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 05:19:32 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 0257d1bd3e54e6b5707fdc64d9fabd2d1d16d102ea0583911538291c6fe546a5
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 05:19:32 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 0257d1bd3e54e6b5707fdc64d9fabd2d1d16d102ea0583911538291c6fe546a5
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 05:19:33 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 0257d1bd3e54e6b5707fdc64d9fabd2d1d16d102ea0583911538291c6fe546a5
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 05:24:22 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 0257d1bd3e54e6b5707fdc64d9fabd2d1d16d102ea0583911538291c6fe546a5
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 05:24:22 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 0257d1bd3e54e6b5707fdc64d9fabd2d1d16d102ea0583911538291c6fe546a5
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 05:24:22 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 0257d1bd3e54e6b5707fdc64d9fabd2d1d16d102ea0583911538291c6fe546a5
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 05:24:22 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 0257d1bd3e54e6b5707fdc64d9fabd2d1d16d102ea0583911538291c6fe546a5
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 05:24:22 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 0257d1bd3e54e6b5707fdc64d9fabd2d1d16d102ea0583911538291c6fe546a5
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 05:24:22 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 0257d1bd3e54e6b5707fdc64d9fabd2d1d16d102ea0583911538291c6fe546a5
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 05:24:22 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 0257d1bd3e54e6b5707fdc64d9fabd2d1d16d102ea0583911538291c6fe546a5
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 05:24:22 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 0257d1bd3e54e6b5707fdc64d9fabd2d1d16d102ea0583911538291c6fe546a5
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 05:24:23 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 0257d1bd3e54e6b5707fdc64d9fabd2d1d16d102ea0583911538291c6fe546a5
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 05:24:23 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 0257d1bd3e54e6b5707fdc64d9fabd2d1d16d102ea0583911538291c6fe546a5
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 05:24:23 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 0257d1bd3e54e6b5707fdc64d9fabd2d1d16d102ea0583911538291c6fe546a5
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 05:24:23 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 0257d1bd3e54e6b5707fdc64d9fabd2d1d16d102ea0583911538291c6fe546a5
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 05:24:23 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 0257d1bd3e54e6b5707fdc64d9fabd2d1d16d102ea0583911538291c6fe546a5
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 05:24:23 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 0257d1bd3e54e6b5707fdc64d9fabd2d1d16d102ea0583911538291c6fe546a5
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 05:24:23 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 0257d1bd3e54e6b5707fdc64d9fabd2d1d16d102ea0583911538291c6fe546a5
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 05:24:23 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 0257d1bd3e54e6b5707fdc64d9fabd2d1d16d102ea0583911538291c6fe546a5
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 05:24:23 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 0257d1bd3e54e6b5707fdc64d9fabd2d1d16d102ea0583911538291c6fe546a5
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 05:24:23 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 0257d1bd3e54e6b5707fdc64d9fabd2d1d16d102ea0583911538291c6fe546a5
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 05:24:24 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 0257d1bd3e54e6b5707fdc64d9fabd2d1d16d102ea0583911538291c6fe546a5
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 05:24:24 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 0257d1bd3e54e6b5707fdc64d9fabd2d1d16d102ea0583911538291c6fe546a5
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 05:24:24 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 0257d1bd3e54e6b5707fdc64d9fabd2d1d16d102ea0583911538291c6fe546a5
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 13:28:48 Europe/Istanbul] User not found: c@c.com
+[13-Nov-2024 15:48:24 Europe/Istanbul] Invalid password for user: admin
+[13-Nov-2024 15:48:33 Europe/Istanbul] Invalid password for user: admin
+[13-Nov-2024 15:48:53 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => b6d57d5278fb15d3d74a4382e2bd08bcf8b022323daabd32fca8d4b55b07d238
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:48:53 Europe/Istanbul] Redirecting to: panel/admin/dashboard.php
+[13-Nov-2024 15:49:00 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => b6d57d5278fb15d3d74a4382e2bd08bcf8b022323daabd32fca8d4b55b07d238
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:49:00 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => b6d57d5278fb15d3d74a4382e2bd08bcf8b022323daabd32fca8d4b55b07d238
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:49:00 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => b6d57d5278fb15d3d74a4382e2bd08bcf8b022323daabd32fca8d4b55b07d238
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:49:00 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => b6d57d5278fb15d3d74a4382e2bd08bcf8b022323daabd32fca8d4b55b07d238
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:49:00 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => b6d57d5278fb15d3d74a4382e2bd08bcf8b022323daabd32fca8d4b55b07d238
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:49:01 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => b6d57d5278fb15d3d74a4382e2bd08bcf8b022323daabd32fca8d4b55b07d238
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:49:01 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => b6d57d5278fb15d3d74a4382e2bd08bcf8b022323daabd32fca8d4b55b07d238
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:49:01 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => b6d57d5278fb15d3d74a4382e2bd08bcf8b022323daabd32fca8d4b55b07d238
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:49:01 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => b6d57d5278fb15d3d74a4382e2bd08bcf8b022323daabd32fca8d4b55b07d238
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:49:01 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => b6d57d5278fb15d3d74a4382e2bd08bcf8b022323daabd32fca8d4b55b07d238
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:51:17 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => bff78819acaa69145e79408629976226581b6419f4462197afb363f85cead9ef
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:51:17 Europe/Istanbul] Redirecting to: panel/admin/dashboard.php
+[13-Nov-2024 15:51:39 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => bff78819acaa69145e79408629976226581b6419f4462197afb363f85cead9ef
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:51:39 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => bff78819acaa69145e79408629976226581b6419f4462197afb363f85cead9ef
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:51:39 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => bff78819acaa69145e79408629976226581b6419f4462197afb363f85cead9ef
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:51:40 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => bff78819acaa69145e79408629976226581b6419f4462197afb363f85cead9ef
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:51:40 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => bff78819acaa69145e79408629976226581b6419f4462197afb363f85cead9ef
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:51:40 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => bff78819acaa69145e79408629976226581b6419f4462197afb363f85cead9ef
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:51:40 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => bff78819acaa69145e79408629976226581b6419f4462197afb363f85cead9ef
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:51:40 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => bff78819acaa69145e79408629976226581b6419f4462197afb363f85cead9ef
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:51:40 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => bff78819acaa69145e79408629976226581b6419f4462197afb363f85cead9ef
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:51:40 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => bff78819acaa69145e79408629976226581b6419f4462197afb363f85cead9ef
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:51:40 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => bff78819acaa69145e79408629976226581b6419f4462197afb363f85cead9ef
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:51:40 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => bff78819acaa69145e79408629976226581b6419f4462197afb363f85cead9ef
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:51:40 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => bff78819acaa69145e79408629976226581b6419f4462197afb363f85cead9ef
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:51:40 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => bff78819acaa69145e79408629976226581b6419f4462197afb363f85cead9ef
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:51:40 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => bff78819acaa69145e79408629976226581b6419f4462197afb363f85cead9ef
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:51:40 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => bff78819acaa69145e79408629976226581b6419f4462197afb363f85cead9ef
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:51:41 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => bff78819acaa69145e79408629976226581b6419f4462197afb363f85cead9ef
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:51:41 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => bff78819acaa69145e79408629976226581b6419f4462197afb363f85cead9ef
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:51:41 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => bff78819acaa69145e79408629976226581b6419f4462197afb363f85cead9ef
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:51:41 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => bff78819acaa69145e79408629976226581b6419f4462197afb363f85cead9ef
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:51:41 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => bff78819acaa69145e79408629976226581b6419f4462197afb363f85cead9ef
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:53:00 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => bff78819acaa69145e79408629976226581b6419f4462197afb363f85cead9ef
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:53:00 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => bff78819acaa69145e79408629976226581b6419f4462197afb363f85cead9ef
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:53:00 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => bff78819acaa69145e79408629976226581b6419f4462197afb363f85cead9ef
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:53:00 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => bff78819acaa69145e79408629976226581b6419f4462197afb363f85cead9ef
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:53:00 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => bff78819acaa69145e79408629976226581b6419f4462197afb363f85cead9ef
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:53:00 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => bff78819acaa69145e79408629976226581b6419f4462197afb363f85cead9ef
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:53:00 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => bff78819acaa69145e79408629976226581b6419f4462197afb363f85cead9ef
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:53:00 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => bff78819acaa69145e79408629976226581b6419f4462197afb363f85cead9ef
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:53:00 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => bff78819acaa69145e79408629976226581b6419f4462197afb363f85cead9ef
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:53:00 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => bff78819acaa69145e79408629976226581b6419f4462197afb363f85cead9ef
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:53:00 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => bff78819acaa69145e79408629976226581b6419f4462197afb363f85cead9ef
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:53:00 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => bff78819acaa69145e79408629976226581b6419f4462197afb363f85cead9ef
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:53:00 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => bff78819acaa69145e79408629976226581b6419f4462197afb363f85cead9ef
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:53:01 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => bff78819acaa69145e79408629976226581b6419f4462197afb363f85cead9ef
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:53:01 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => bff78819acaa69145e79408629976226581b6419f4462197afb363f85cead9ef
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:53:01 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => bff78819acaa69145e79408629976226581b6419f4462197afb363f85cead9ef
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:53:01 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => bff78819acaa69145e79408629976226581b6419f4462197afb363f85cead9ef
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:53:01 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => bff78819acaa69145e79408629976226581b6419f4462197afb363f85cead9ef
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:53:01 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => bff78819acaa69145e79408629976226581b6419f4462197afb363f85cead9ef
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:53:01 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => bff78819acaa69145e79408629976226581b6419f4462197afb363f85cead9ef
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 15:53:01 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => bff78819acaa69145e79408629976226581b6419f4462197afb363f85cead9ef
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 20:50:46 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 6f2f7f0386d987641e72d2e20bd41943578835cf6c77053ae47a5cce7b1de1be
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[13-Nov-2024 20:50:46 Europe/Istanbul] Redirecting to: panel/admin/dashboard.php
+[14-Nov-2024 02:31:59 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:31:59 Europe/Istanbul] Redirecting to: panel/admin/dashboard.php
+[14-Nov-2024 02:46:05 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:05 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:05 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:05 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:05 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:05 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:05 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:06 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:06 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:06 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:06 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:06 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:06 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:06 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:06 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:07 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:07 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:07 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:07 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:07 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:08 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:08 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:08 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:09 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:09 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:09 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:09 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:09 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:09 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:09 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:09 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:09 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:09 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:09 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:10 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:10 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:10 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:10 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:10 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:10 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:15 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:15 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:15 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:15 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:16 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:16 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:16 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:16 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:16 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:16 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:16 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:16 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:16 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:16 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:17 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:17 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:17 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:20 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:20 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:20 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:20 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:20 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:20 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:20 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:20 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:20 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:21 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:21 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:21 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:21 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:21 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:21 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:21 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:21 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:21 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:21 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:22 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:23 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:23 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:23 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:23 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:23 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:23 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:23 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:23 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:38 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:38 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:38 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:38 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:39 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:39 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:39 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:39 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:39 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:39 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:39 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:39 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:39 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:39 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:39 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:40 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:40 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:40 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:40 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:40 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:41 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:41 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:42 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:42 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:42 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:42 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:42 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:42 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:42 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:42 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:42 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:42 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:42 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:43 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:43 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:43 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:43 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:43 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:43 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:43 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:48 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:48 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:48 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:49 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:49 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:49 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:49 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:49 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:50 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:50 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:50 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:50 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:50 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:50 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:50 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:50 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:50 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:50 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:50 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:51 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:55 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:55 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:56 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:56 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:56 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:56 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:56 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:56 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:56 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:56 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:56 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:56 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:56 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:57 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:57 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:57 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:57 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:57 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:57 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:57 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:58 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:58 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:58 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:58 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:59 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:59 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:59 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:59 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:59 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:59 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:59 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:59 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:59 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:59 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:46:59 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:00 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:00 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:00 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:00 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:00 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:05 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:05 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:05 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:05 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:05 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:06 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:06 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:06 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:06 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:06 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:06 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:06 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:06 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:06 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:06 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:06 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:07 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:07 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:07 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:07 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:37 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:37 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:37 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:37 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:37 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:38 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:38 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:38 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:38 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:38 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:38 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:38 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:38 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:38 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:38 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:38 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:39 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:39 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:39 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:47:39 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:48:39 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:48:39 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:48:39 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:48:39 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:48:40 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:48:40 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:48:40 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:48:40 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:48:40 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:48:40 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:48:40 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:48:40 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:48:40 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:48:41 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:48:41 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:48:41 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:48:41 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:48:41 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:48:41 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:48:41 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:57:06 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:57:06 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:57:06 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:57:06 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:57:06 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:57:07 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:57:07 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:57:07 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:57:07 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:57:07 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:57:07 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:57:07 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:57:07 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:57:07 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:57:08 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:57:08 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:57:08 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:57:08 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:57:08 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
+[14-Nov-2024 02:57:08 Europe/Istanbul] Checking admin status: Array
+(
+    [csrf_token] => 9d8e65413ed8948ec7ba0b7ac147878e5a7a5200d72426667f9307df1745672f
+    [login_attempts] => 0
+    [lockout_until] => 0
+    [user_id] => 1
+    [username] => admin
+    [is_admin] => 1
+)
+
